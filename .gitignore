@@ -1,0 +1,59 @@
+# Ignore node_modules directories
+node_modules/
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variables
+.env
+
+# Ignore dependency directories
+client/node_modules/
+server/node_modules/
+
+# Ignore build directories
+client/build/
+client/dist/
+server/build/
+server/dist/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage directories
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# JetBrains IDEs
+.idea/
+
+# Python specific ignores
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+ENV/
+.venv/
+.pytest_cache/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
